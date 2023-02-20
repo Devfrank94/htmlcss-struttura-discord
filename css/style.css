@@ -75,7 +75,7 @@ nav ul li a{
   border: 2px dashed black;
 }
 
-.boxcontainer{
+.boxcontainer,.footcontainer,.menu-footer{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,6 +121,52 @@ main section:last-child{
   height: 550px;
   background-color: green;
 }
-
 /* /stile sezioni immagini e testo */
+
+/* stile footer */
+footer{
+  height: 445px;
+  background-color: rgb(38, 38, 38);
+}
+
+.boxsocial{
+  display: flex;
+  background-color: lightpink;
+  height: 350px;
+  width: 250px;
+  border: 2px dashed black;
+}
+
+footer .product,.company,.resources,.norms{
+  display: flex;
+  background-color: rgb(0, 203, 187);
+  height: 350px;
+  width: 180px;
+  border: 2px dashed rgb(255, 255, 255);
+}
+
+.footcontainer{
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+hr{
+  margin: 20px 0;
+}
+
+.menu-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgb(93, 255, 228);
+}
+
+.btn-signin{
+  text-align: center;
+}
+/* /stile footer */
+
 
