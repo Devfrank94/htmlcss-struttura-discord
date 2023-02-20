@@ -3,3 +3,76 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*stile logo link e login */
+header{
+  display: flex;
+  align-items: center;
+  background-color: rgb(146, 222, 255);
+  min-height: 70px;
+}
+
+.menu.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  width: 80%;
+  height: 30px;
+  border: 2px dashed black;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+
+.logo{
+  align-items: center;
+  padding-left: 10px;
+}
+
+.btn-login{
+  padding-right: 10px;
+}
+
+nav{
+  padding-left: 100px;
+  padding-right: 85px;
+  height: 30px;
+  border-left: 2px dashed black;
+  border-right: 2px dashed black;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  line-height: 30px;
+}
+
+nav ul li{
+  margin-right: 15px;
+  color: black;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+/* stile jumbotron e text-box */
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: rgb(0, 0, 141);
+}
+
+.box-jumbo{
+  height: 200px;
+  width: 450px;
+  background-color: rgb(255, 121, 239);
+  border: 2px dashed black;
+}
+
+/* stile sezioni immagini e testo */
